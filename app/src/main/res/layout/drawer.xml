@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="580dp"
+    android:background="@drawable/drawer"
+    android:elevation="40dp">
+    <TextView android:id="@+id/text_5zRap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="How are you feeling today?"
+        android:textStyle="bold"
+        android:textColor="@color/font"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"/>
+
+    <EditText android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/font"
+        android:fontFamily="sans-serif-light"
+        android:textSize="30sp"
+        android:hint="write your amazing day"
+        android:textColorHint="@color/font_light"
+        android:backgroundTint="@color/white"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textColorHighlight="@color/base"
+        android:textSelectHandle="@color/base"
+        android:textSelectHandleLeft="@color/base"
+        android:textSelectHandleRight="@color/base"
+        android:gravity="top"
+        />
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="450dp"
+        android:orientation="vertical">
+        <Button android:id="@+id/complete_btn"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:background="@drawable/button"
+            android:text="Complete"
+            android:textAllCaps="false"
+            android:textColor="@color/base_hard"
+            android:textSize="18sp"
+            android:elevation="10dp"
+            android:onClick="complete2"/>
+    </LinearLayout>
+</RelativeLayout>
