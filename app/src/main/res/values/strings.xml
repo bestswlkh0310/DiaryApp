@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">diaryApp</string>
+    <string name="complete">Complete</string>
+    <string name="how_are_you_feeling_today">How are you feeling today?</string>
+    <string name="write_your_amazing_day">write your amazing day</string>
+    <string name="diary">Diary</string>
+    <string name="_1627_02_17">1627 / 02 / 17</string>
+    <string name="doYouSave">저장하시겠습니까?</string>
+    <string name="save">저장</string>
+    <string name="cancel">취소</string>
 </resources>
